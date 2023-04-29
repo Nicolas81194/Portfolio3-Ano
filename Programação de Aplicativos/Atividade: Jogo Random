@@ -1,0 +1,21 @@
+#Atividade: Jogo random
+
+public void confirma(View v){
+       tentativas ++;
+       int digitado = Integer.parseInt(entrada.getText().toString());
+       if(digitado > numero){
+           saida.setText("O Número menor!");
+
+       }
+       else if(digitado <numero) {
+           saida.setText("O número é maior!");
+
+       } else{
+           saida.setText("O número é igual");
+       }
+       if(tentativas>1){
+           saida.setText("Perdeu GG");
+
+       }
+   }
+}
