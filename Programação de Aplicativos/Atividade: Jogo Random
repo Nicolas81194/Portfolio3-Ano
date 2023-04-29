@@ -1,4 +1,4 @@
-#Atividade: Jogo random
+                                                              ATIVIDADE: JOGO RANDOM
 
 public void confirma(View v){
        tentativas ++;
