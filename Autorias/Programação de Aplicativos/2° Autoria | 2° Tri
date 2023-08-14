@@ -1,0 +1,32 @@
+História do JavaScript:
+
+Anos 90: JavaScript foi criado por Brendan Eich na Netscape Communications Corporation, inicialmente chamado de "Mocha" e depois "LiveScript". Foi lançado junto com o navegador Netscape Navigator em 1995.
+
+1996: A Microsoft lançou sua própria versão chamada JScript, como parte do Internet Explorer.
+
+1997: A Netscape submeteu JavaScript para padronização na European Computer Manufacturers Association (ECMA), resultando na especificação ECMAScript 1.
+
+2000s: Diversas versões do ECMAScript foram lançadas, adicionando novos recursos, como manipulação de DOM (Document Object Model) e AJAX (Asynchronous JavaScript and XML), que permitiram interações assíncronas com o servidor.
+
+2010s: Com o aumento da complexidade das aplicações web, bibliotecas e frameworks como jQuery, Angular, React e Vue.js ganharam popularidade, simplificando o desenvolvimento de aplicativos interativos e dinâmicos.
+
+Atualidade: JavaScript é uma das linguagens de programação mais usadas no desenvolvimento web e é suportado por todos os principais navegadores. ECMAScript continua a evoluir, com lançamentos regulares trazendo novos recursos e melhorias.
+
+Exemplo de código simples:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de JavaScript</title>
+</head>
+<body>
+    <button id="greetButton">Clique aqui!</button>
+
+    <script>
+        var greetButton = document.getElementById('greetButton');
+        greetButton.addEventListener('click', function() {
+            alert('Oi Prof!');
+        });
+    </script>
+</body>
+</html>
